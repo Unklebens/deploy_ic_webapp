@@ -1,4 +1,4 @@
-- name: deploy odoo using a role
+- name: deploy ic-webapp using a role
   hosts: localhost
   become: true
   vars:
@@ -6,4 +6,4 @@
     hostname: "odoo"
   roles:
     - docker_role
-    - odoo_role
+    - ic_webapp_role
