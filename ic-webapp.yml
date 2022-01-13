@@ -3,7 +3,7 @@
   become: true
   vars:
     edit_hostname: "no"
-    hostname: "odoo"
+    hostname: "ic-webapp"
   roles:
     - docker_role
     - ic_webapp_role
