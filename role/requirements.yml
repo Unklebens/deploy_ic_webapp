@@ -1,0 +1,4 @@
+- src: https://github.com/Unklebens/docker_role.git
+- src: unklebens.docker_role
+- src: unklebens.ic_webapp_role
+- src: https://github.com/Unklebens/ic_webapp_role.git
